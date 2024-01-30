@@ -1,3 +1,11 @@
+install flask
+install wordcloud
+install matplotlib
+install io
+install base64
+install streamlit
+
+import streamlit as st
 from flask import Flask, render_template, request
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
