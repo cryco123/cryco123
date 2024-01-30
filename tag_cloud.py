@@ -1,4 +1,3 @@
-install flask
 install wordcloud
 install matplotlib
 install io
