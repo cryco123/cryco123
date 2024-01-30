@@ -1,4 +1,9 @@
-import streamlit as st
+from flask import Flask, render_template, request
+from wordcloud import WordCloud
+import matplotlib.pyplot as plt
+from io import BytesIO
+import base64
+
 app = Flask(__name__)
 
 def generate_tag_cloud(text):
