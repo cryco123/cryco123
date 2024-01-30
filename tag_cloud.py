@@ -1,6 +1,6 @@
 import streamlit as st
 
-import matplotlib.pyplot as plt
+import matplotlib as plt
 from wordcloud import WordCloud
 
 # Read text from a file
